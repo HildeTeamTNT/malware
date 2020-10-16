@@ -1,0 +1,22 @@
+find / -name kinsing*
+/root/.ssh/kinsingiem6g1ACEa
+/root/.ssh/kinsingllqvjR3g74
+
+
+ ls -al /root/.ssh
+insgesamt 34512
+drwx------  2 root root     4096 19. Apr 02:28 .
+dr-xr-x---. 9 root root     4096 15. Apr 09:48 ..
+-rw-r--r--  1 root root       92 26. Mär 23:34 apache
+-rw-r--r--  1 root root      507  6. Apr 22:05 authorized_keys
+-rw-r--r--  1 root root       92 24. Mär 23:28 authorized_keys2
+-rw-r--r--  1 root root       92  3. Apr 17:13 backup.db
+-rw-r--r--  1 root root       92  3. Apr 05:30 crontab
+-rw-r--r--  1 root root       92  6. Apr 23:05 dump.rdb
+-rwxr-xr-x  1 root root  1861904 19. Apr 01:30 firewire
+-rwxr-xr-x  1 root root 16687104  7. Apr 00:07 kinsingiem6g1ACEa
+-rwxr-xr-x  1 root root 16687104  6. Apr 16:56 kinsingllqvjR3g74
+-rw-r--r--  1 root root       92  3. Apr 02:23 ntp
+-rw-r--r--  1 root root    55640  6. Apr 23:40 red2.so
+-rw-r--r--  1 root root       92  3. Apr 09:36 root
+-rw-r--r--  1 root root       92  3. Apr 04:01 web
