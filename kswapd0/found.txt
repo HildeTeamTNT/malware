@@ -1,0 +1,8 @@
+find / -name kswapd0
+/tmp/.X25-unix/.rsync/a/kswapd0
+/root/.configrc/a/kswapd0
+
+find / -name tsm
+/tmp/.X25-unix/.rsync/c/lib/64/tsm
+/tmp/.X25-unix/.rsync/c/lib/32/tsm
+/tmp/.X25-unix/.rsync/c/tsm
